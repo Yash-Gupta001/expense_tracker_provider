@@ -5,6 +5,19 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(title: Text('Expense Tracker')),
+      body: Column(
+        children: [
+              
+            ],
+          ),
+          floatingActionButton: FloatingActionButton(
+            onPressed: (){
+              
+            },
+            child:Icon(Icons.add),
+            ),
+    );
   }
 }
