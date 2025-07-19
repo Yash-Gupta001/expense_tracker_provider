@@ -36,7 +36,5 @@ class TransactionProvider with ChangeNotifier {
     _transaction.removeWhere((tx) => tx.id == id);
     notifyListeners();
   }
-
-  /// method to
   
 }
